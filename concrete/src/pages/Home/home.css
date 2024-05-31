@@ -1,0 +1,39 @@
+.scrolling-container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(auto-fit, minmax(100vw, 1fr)); /* Adjust minmax values if needed */
+    width: fit-content; /* Optional: Adjust width as needed */
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    
+  }
+
+.scrolling-container{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    height: 80vh;
+}  
+  
+ 
+
+  .content-item,
+.content-item1,
+.content-item2 {
+  width: 100vw; /* Set width to full viewport */
+  height: 80vh; /* Set height to full viewport (adjust if needed) */
+}
+
+
+.arrows{
+  position: absolute;
+  /* background-color: aquamarine; */
+  top: 95%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}

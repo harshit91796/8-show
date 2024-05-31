@@ -1,0 +1,18 @@
+
+
+@font-face {
+    font-family: 'MajorMonoDisplay';
+    src: url('../font/Major_Mono_Display/MajorMonoDisplay-Regular.ttf') format('ttf');
+    
+}
+
+.MajorMonoDisplay {
+    font-family: 'MajorMonoDisplay';
+}
+
+.major-mono-display-regular {
+    font-family: "Major Mono Display", monospace;
+    font-weight: 900;
+    font-style: normal;
+  }
+  

@@ -1,0 +1,37 @@
+/* .scrollingContainerDiv{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    
+} */
+
+
+.scrolldiv{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+
+/* .scrolldiv {
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+  }
+  
+  .scroll-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+  }
+  
+  .scroll-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  } */
